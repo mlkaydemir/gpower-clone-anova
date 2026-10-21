@@ -58,3 +58,4 @@ Bu sprint boyunca iki temel oturum ve geliştirme aşaması yürütülmüştür:
    Ghidra GUI yerine headless analiz betiği (Ghidra headless analyzer) ile doğrudan PE stringlerini JSON çıktısına döken bir Python scripti kullanılsaydı binary inceleme daha hızlı tamamlanabilirdi.
 3. **Token Tasarrufu Stratejisi:**
    GUI ekran görüntüsü analizi (Vision model) soru başına ~1,800 token tüketirken, metin tabanlı MCP çağrısı yalnızca ~140 token tüketmektedir. Sprintin başında doğrudan MCP aracı tasarımına odaklanmak maliyet transferi tezini somut olarak kanıtlamıştır.
+

@@ -104,3 +104,4 @@ def power_analysis(
 if __name__ == "__main__":
     # Runs the stdio MCP server transport
     mcp_server.run()
+

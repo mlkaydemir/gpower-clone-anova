@@ -56,3 +56,4 @@ Klasik kütüphaneler ANOVA örneklem büyüklüğünü çözerken sürekli değ
 
 ### 4.2 G*Power 7 Basamak Gösterimi ve Double Hassasiyeti
 G*Power GUI'sinde ondalık değerler 7 basamakla biçimlendirilir (`%.7f`). Örneğin kritik F değeri `2.4017397` olarak görünür. Motorumuz IEEE 754 64-bit double hassasiyetinde `2.4017396963214197` üretmektedir. İkisi arasındaki fark $3.6 \times 10^{-9}$ olup, sözleşmenin $10^{-6}$ toleransının çok altındadır.
+

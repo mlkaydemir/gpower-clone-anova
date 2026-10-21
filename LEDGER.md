@@ -138,3 +138,4 @@
 ## 3. Özet ve Çıkarım
 
 G*Power Omnibus One-way ANOVA hesaplaması, klasik R `pwr` paketinden **dengeli tasarım kuralı ($N = k \times n$)** ve **tam kat artırımı** ile ayrılmaktadır. Bu bulgu olmadan yapılacak herhangi bir implementasyon gizli test vektörlerindeki N değerlerini ıskalayacak ve %90 kapı (gate) kuralına takılacaktır. Motorumuz bu REA bulgusunu temel prensip olarak benimsemiştir.
+

@@ -41,3 +41,4 @@ Kâhin doğrulaması için alınan ekran görüntüleri ve protokol kayıtları:
 - `screenshots/anova_compromise_q1.png`: Public vector 13 doğrulaması ($\alpha=\beta=0.2309247$).
 - `screenshots/anova_criterion_p95.png`: Public vector 14 doğrulaması ($\alpha=0.6245994$).
 - `screenshots/anova_sensitivity_p95.png`: Public vector 15 doğrulaması ($f=0.4418664$).
+

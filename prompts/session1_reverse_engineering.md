@@ -26,3 +26,4 @@ Aşağıdaki adımları sırasıyla uygula ve kanıtlarını kaydet:
 
 UYARI: Temiz oda (clean-room) kuralı gereği hiçbir C/C++ decompile kodunu veya tescilli kaynak kodunu çıktıya yapıştırma; sadece algoritma adımlarını, matematiksel bağıntıları, fonksiyon adreslerini ve davranışsal kuralları açıkla.
 ```
+

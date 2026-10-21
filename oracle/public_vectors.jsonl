@@ -23,3 +23,4 @@
 {"id":"multireg-r2/compromise","input":{"test":"multireg-r2","mode":"compromise","f2":0.15,"beta_alpha_ratio":1,"n_total":100,"predictors":2},"expected":{"ncp":15.0000000,"critical_f":2.9610326,"df1":2,"df2":97,"alpha":0.0564634,"beta":0.0564634,"power":0.9435366}}
 {"id":"multireg-r2/criterion","input":{"test":"multireg-r2","mode":"criterion","f2":0.15,"power":0.95,"n_total":100,"predictors":2},"expected":{"ncp":15.0000000,"critical_f":2.8223021,"df1":2,"df2":97,"alpha":0.0643616}}
 {"id":"multireg-r2/sensitivity","input":{"test":"multireg-r2","mode":"sensitivity","alpha":0.05,"power":0.95,"n_total":100,"predictors":2},"expected":{"ncp":15.9319908,"critical_f":3.0901867,"df1":2,"df2":97,"f2":0.1593199}}
+

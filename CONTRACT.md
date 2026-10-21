@@ -146,3 +146,4 @@ gpower-clone --test anova-oneway --mode a-priori --f 0.25 --alpha 0.05 --power 0
 
 ### Kapı
 Gizli `a-priori` vektörlerinde **N alanlarının** (`n_total`) en az **%90** oranında tam eşleşmesi gerekir.
+

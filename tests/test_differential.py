@@ -123,3 +123,4 @@ def test_large_scale_500_grid():
     print(f"\n[500+ SCALE GRID] Total Runs: {total_runs}, Passed: {passed_runs} (100.0% Pass Rate)")
     assert passed_runs == total_runs
     assert total_runs >= 360  # 6 * 5 * 3 * 4 = 360 parameter combinations tested round-trip (720 total engine evaluations)
+

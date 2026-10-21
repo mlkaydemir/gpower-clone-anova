@@ -177,3 +177,4 @@ def test_mcp_cli_equivalence_error_handling():
     mcp_json = json.loads(mcp_output)
     assert cli_json["code"] == mcp_json["code"] == "INCONSISTENT"
     assert cli_json["field"] == mcp_json["field"] == "power"
+

@@ -219,3 +219,4 @@ Bu çalışma yalnızca eğitim ve araştırma amacıyla yürütülmüştür. G\
 
 1. **Faul, F., Erdfelder, E., Lang, A.-G., & Buchner, A. (2007).** *G\*Power 3: A flexible statistical power analysis program for the social, behavioral, and biomedical sciences.* Behavior Research Methods, 39(2), 175–191.
 2. **Faul, F., Erdfelder, E., Buchner, A., & Lang, A.-G. (2009).** *Statistical power analyses using G\*Power 3.1: Tests for correlation and regression analyses.* Behavior Research Methods, 41(4), 1149–1160.
+

@@ -27,3 +27,4 @@ Uygulaman gereken kurallar:
    - MCP Sunucusu (src/mcp_server.py): Standart MCP protokolüyle "power_analysis" aracını sunacak, CLI ile aynı motoru çağıracak. CLI-MCP eşdeğerlik testi yazılacak.
    - AI Ajanı (src/agent.py): Hekimin Türkçe doğal dil sorusunu alıp parametreleri çıkaracak, MCP aracını çağırıp sonucu yorumlayacak. 10 soruluk eval setinde doğrulanacak ve logs/agent_calls.jsonl'e kayıt düşecek.
 ```
+

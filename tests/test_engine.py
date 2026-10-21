@@ -102,3 +102,4 @@ def test_three_treatment_arms_apriori():
     assert res["df1"] == 2
     assert res["n_total"] % 3 == 0  # 3 kola tam bölünmeli
     assert res["actual_power"] >= 0.80
+

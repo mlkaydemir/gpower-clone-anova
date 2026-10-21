@@ -108,3 +108,4 @@ def test_cli_unsupported_test():
     assert code == 2
     data = json.loads(stdout)
     assert data["code"] == "UNSUPPORTED"
+

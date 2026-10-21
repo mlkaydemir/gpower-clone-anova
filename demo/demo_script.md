@@ -27,3 +27,4 @@ Kullanıcı videoyu çekerken elle komut yazmakla vakit kaybetmesin diye adımla
 ```cmd
 demo\run_demo.bat
 ```
+

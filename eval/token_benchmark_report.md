@@ -48,3 +48,4 @@ Aynı 10 klinik soru İngilizceye çevrilerek paralel olarak test edilmiştir:
 - **Türkçe Soru Başarısı:** %100 (10/10) doğru test ve mod seçimi.
 - **İngilizce Çeviri Başarısı:** %100 (10/10) doğru test ve mod seçimi.
 - **Gözlem:** Türkçe klinik metinlerde ek ve çekim zenginliği (örn. `"tedavisinde"`, `"kollarına"`, `"gruplarında"`, `"düşürücü"`) bulunmasına rağmen kelime kökü ve düzenli ifade sınırları (`\b`) doğru kurgulandığında Türkçe dilinde hiçbir başarım kaybı yaşanmamıştır.
+

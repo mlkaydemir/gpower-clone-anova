@@ -162,3 +162,4 @@ Feature: Tek Yönlü ANOVA (One-Way ANOVA) Güç Analizi ve Örneklem Boyutu Hes
     And stdout tek satır JSON olmalıdır
     And JSON içinde "contract_version" değeri "1.0.0" olmalıdır
     And JSON içinde "name" ve "engine" alanları bulunmalıdır
+

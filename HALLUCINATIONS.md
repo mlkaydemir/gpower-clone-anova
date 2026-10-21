@@ -55,3 +55,4 @@
   `tests/test_cli_validation.py::test_invalid_sample_size_relative_to_groups`.
 - **Kök Neden ve Düzeltme:**  
   G*Power PE incelemesinde (`FUN_0045c770`), $N \le groups$ durumunda `INCONSISTENT` mantıksal hatası fırlatılması ve çıkış kodunun 2 olması gerektiği belirlendi.
+
