@@ -1,0 +1,132 @@
+[
+  {
+    "id": "Q01",
+    "clinical_question": "Hipertansiyon hastalarında standart tedavi (ACE inhibitörü), yeni bir ARB ilacı ve plasebonun kan basıncına etkisini karşılaştıracağız. Orta düzeyde bir fark (f=0.25) bekliyoruz. Tip 1 hata oranını 0.05 ve test gücünü %80 alırsak her kolda ve toplamda kaç hasta gerekir?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "a-priori",
+    "expected_params": {
+      "groups": 3,
+      "f": 0.25,
+      "alpha": 0.05,
+      "power": 0.80
+    },
+    "expected_n_total": 159
+  },
+  {
+    "id": "Q02",
+    "clinical_question": "Tip 2 diyabetli 4 farklı hasta grubunda (diyet, metformin, sülfonilüre, kombinasyon) HbA1c düzeylerini kıyaslamak istiyoruz. Büyük bir etki (f=0.40) öngörüyoruz. Alfa=0.05 ve güç=%95 için toplam kaç denek almalıyız?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "a-priori",
+    "expected_params": {
+      "groups": 4,
+      "f": 0.40,
+      "alpha": 0.05,
+      "power": 0.95
+    },
+    "expected_n_total": 112
+  },
+  {
+    "id": "Q03",
+    "clinical_question": "Üç farklı cerrahi teknik uygulanan toplam 60 hastamız var (her grupta 20 hasta). Orta düzeyde bir etki büyüklüğü (f=0.25) ve alfa=0.05 için bu çalışmanın ulaştığı istatistiksel güç nedir?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "post-hoc",
+    "expected_params": {
+      "groups": 3,
+      "f": 0.25,
+      "alpha": 0.05,
+      "n_total": 60
+    },
+    "expected_power_approx": 0.354
+  },
+  {
+    "id": "Q04",
+    "clinical_question": "Onkolojide 5 farklı kemoterapi protokolünün tümör küçülme oranlarını tek yönlü ANOVA ile karşılaştıracağız. Orta etki (f=0.25), alfa=0.05 ve %95 güç hedefiyle gereken toplam denek sayısı nedir?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "a-priori",
+    "expected_params": {
+      "groups": 5,
+      "f": 0.25,
+      "alpha": 0.05,
+      "power": 0.95
+    },
+    "expected_n_total": 305
+  },
+  {
+    "id": "Q05",
+    "clinical_question": "Dermatoloji kliniğinde 3 farklı merhemin lezyon iyileşme süreleri karşılaştırılacak. Literatürde f=0.30 verilmiş. Alfa 0.05 ve %80 güç için çalışma büyüklüğü ne olmalıdır?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "a-priori",
+    "expected_params": {
+      "groups": 3,
+      "f": 0.30,
+      "alpha": 0.05,
+      "power": 0.80
+    },
+    "expected_n_total": 111
+  },
+  {
+    "id": "Q06",
+    "clinical_question": "Farklı dozlarda (Doz 1, Doz 2, Doz 3, Kontrol) antidepresan verilen toplam 120 hastanın verisi toplandı. f=0.20 ve alfa=0.05 için ulaşılan gücü hesaplayınız.",
+    "expected_test": "anova-oneway",
+    "expected_mode": "post-hoc",
+    "expected_params": {
+      "groups": 4,
+      "f": 0.20,
+      "alpha": 0.05,
+      "n_total": 120
+    },
+    "expected_power_approx": 0.407
+  },
+  {
+    "id": "Q07",
+    "clinical_question": "Depresyon tedavisinde 3 farklı psikoterapi ekolünün etkinlik farkı araştırılıyor. Etki büyüklüğü f=0.25, toplamda 90 hasta alınabilir. Alfa ve beta hatalarını eşit ağırlıkta tutarsak (beta/alpha oranı 1) elde edeceğimiz örtük alfa ve güç nedir?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "compromise",
+    "expected_params": {
+      "groups": 3,
+      "f": 0.25,
+      "beta_alpha_ratio": 1.0,
+      "n_total": 90
+    },
+    "expected_alpha_approx": 0.231
+  },
+  {
+    "id": "Q08",
+    "clinical_question": "Ortopedide 4 farklı protez tipinin hareket açıklığına etkisini araştırıyoruz. Toplam 120 hastamız var. f=0.30 etki büyüklüğünde %90 güç elde edebilmek için anlamlılık eşiğimiz (alfa) kaç olmalıdır?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "criterion",
+    "expected_params": {
+      "groups": 4,
+      "f": 0.30,
+      "power": 0.90,
+      "n_total": 120
+    },
+    "expected_alpha_approx": 0.088
+  },
+  {
+    "id": "Q09",
+    "clinical_question": "Nörolojide 3 farklı rehabilitasyon protokolü için toplam 90 hasta çalışmaya dahil edildi. Alfa=0.05 ve güç=%80 kabul edildiğinde bu örneklem büyüklüğüyle saptayabileceğimiz en küçük etki büyüklüğü (f) nedir?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "sensitivity",
+    "expected_params": {
+      "groups": 3,
+      "alpha": 0.05,
+      "power": 0.80,
+      "n_total": 90
+    },
+    "expected_f_approx": 0.334
+  },
+  {
+    "id": "Q10",
+    "clinical_question": "Kardiyolojide 6 farklı statin tedavi rejiminin LDL kolesterol düşürücü etkisini karşılaştırmak istiyoruz. Küçük-orta etki (f=0.20), alfa=0.05 ve %90 güç için toplam kaç hasta randomize edilmelidir?",
+    "expected_test": "anova-oneway",
+    "expected_mode": "a-priori",
+    "expected_params": {
+      "groups": 6,
+      "f": 0.20,
+      "alpha": 0.05,
+      "power": 0.90
+    },
+    "expected_n_total": 420
+  }
+]
