@@ -210,7 +210,6 @@ python -m src.agent --eval
 Demo videosunu kaydetmek ve izlemek için `demo/` dizinindeki rehberi kullanabilirsiniz:
 - **Demo Script:** [`demo/demo_script.md`](demo/demo_script.md)
 - **Tek Tıkla Demo:** `demo\run_demo.bat`
-- **Video Linki:** *[YouTube / Loom Demo Video Linki]*
 
 ---
 
